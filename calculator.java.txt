@@ -1,0 +1,22 @@
+//calculator.java:
+pubic class Calculator
+{
+public int add (int a,int b,)(return a+b;
+}
+public int substract(int a,int b)(return a-b;
+}
+public int multiply(int a,int b)(return a*b;
+}
+public int divide(int a,int b)
+{
+if(b==0)throw new Arthmetic Exception("cannot divide zero"); by return a/b;
+}
+public static void main(String[]args)
+{
+Calculator calc=new Calculator();
+System.out.pritnln("addition:"+calc.add(10,5));
+System.out.println("substraction:"+calc.subraction(10,5));
+System.out.println("multiplication:"+calc.multiply(10,5));
+System.out.println("division:"+calc.divide(10,5));
+}
+}
