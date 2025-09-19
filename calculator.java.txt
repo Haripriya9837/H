@@ -13,7 +13,7 @@ if(b==0)throw new ArthmeticException("cannot divide zero");return a/b;
 }
 public static void main(String[]args)
 {
-calculator calc=new Calculator();
+calculator calc=new calculator();
 System.out.pritnln("addition:"+calc.add(10,5));
 System.out.println("substraction:"+calc.subtract(10,5));
 System.out.println("multiplication:"+calc.multiply(10,5));
